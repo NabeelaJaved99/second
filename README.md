@@ -23,14 +23,6 @@ student->averageMarks = totalMarks / 5;
 void assignGrades(struct Student *student)  
 { 
 if (student->averageMarks >= 90)  
-Data Structure Laboratory Manual 
-Department of Computer Science and Engineering, Dayananda Sagar University, Bengaluru, 
-Karnataka. 
- 
-  
-Data Structure Laboratory Manual 
-Department of Computer Science and Engineering, Dayananda Sagar University, Bengaluru, 
-Karnataka. 
     { 
         student->grade = 'A'; 
     }  
